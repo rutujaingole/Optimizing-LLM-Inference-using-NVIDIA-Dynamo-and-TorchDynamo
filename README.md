@@ -67,8 +67,8 @@ $ pip install -r requirements.txt
 # Run benchmarking notebook
 $ jupyter notebook inferenceNVIDIA.ipynb
 
-# Run profiler script
-$ python profiler_runner.py
+# Run inference script
+$ python start_infer.py
 
 # (Optional) Launch Triton server
 $ bash start_triton.sh
