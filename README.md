@@ -80,15 +80,18 @@ $ bash start_triton.sh
 
 ```
 .
-├── inferenceNVIDIA.ipynb             # Benchmarking, profiling, plots
-├── profiler_runner.py                # PyTorch Profiler driver
-├── export_model.py                   # TorchScript export for Triton
-├── start_triton.sh                   # Containerized Triton launcher
-├── tables/                           # CSV outputs (latency, profiler)
-├── figures/                          # Plots and charts
-├── log/                              # Profiler traces
-├── requirements.txt                  # Required packages
-└── README.md                         # This file
+├── code/                       
+├── bert_export/                Triton model repo for serving BERT.
+│   ├── config.pbtxt            Config file for the server
+│   └── 1/
+│       └── model.pt            Torchscripted model saved here
+├── log/                        Contains trace files
+├── tables/
+├── figures/
+├── start_triton.sh             Launches Triton container.
+├── requirements.txt
+└── README.md
+
 ```
 
 ---
