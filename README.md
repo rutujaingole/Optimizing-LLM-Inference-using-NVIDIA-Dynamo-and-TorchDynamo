@@ -68,7 +68,7 @@ $ pip install -r requirements.txt
 $ jupyter notebook inferenceNVIDIA.ipynb
 
 # Run inference script
-$ python start_infer.py
+$ python send_infer.py
 
 # (Optional) Launch Triton server
 $ bash start_triton.sh
