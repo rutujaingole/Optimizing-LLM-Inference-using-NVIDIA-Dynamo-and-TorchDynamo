@@ -1,0 +1,4 @@
+Engine,Mean (ms),Median (ms),P95 (ms),Min (ms),Max (ms)
+PyTorch Baseline,12.22,12.19,12.38,12.01,12.57
+Torch.compile (Inductor),12.12,12.01,12.51,11.77,13.46
+Triton (NVIDIA Dynamo),9.52,9.42,9.6,9.32,13.78
